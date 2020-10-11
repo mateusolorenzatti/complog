@@ -1,0 +1,118 @@
+ [{
+  "type": "avance",
+  "message0": "Avance %1 unidade(s)",
+  "args0": [
+    {
+      "type": "field_number",
+      "name": "distancia",
+      "value": 0,
+      "min": 1,
+      "max": 50
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "vire",
+  "lastDummyAlign0": "CENTRE",
+  "message0": "Vire %1 para a %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "angulo",
+      "options": [
+        [
+          "45º",
+          "45"
+        ],
+        [
+          "90º",
+          "90"
+        ],
+        [
+          "180º",
+          "180"
+        ]
+      ]
+    },
+    {
+      "type": "field_dropdown",
+      "name": "direcao",
+      "options": [
+        [
+          "Direita",
+          "direita"
+        ],
+        [
+          "Esquerda",
+          "esquerda"
+        ]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 0,
+  "tooltip": "Insira o ângulo de esterço e sua direção",
+  "helpUrl": ""
+},
+{
+  "type": "condicional",
+  "message0": "Se encontrar algo %1 %2",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "cond"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 210,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "la_o",
+  "message0": "Repita até encontrar algo %1 %2",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "laço"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 135,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "print",
+  "message0": "Diga \" %1 \"",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "palavra",
+      "text": "Digite algo aqui"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 65,
+  "tooltip": "",
+  "helpUrl": ""
+}]

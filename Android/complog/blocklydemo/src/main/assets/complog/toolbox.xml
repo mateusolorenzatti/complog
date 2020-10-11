@@ -1,0 +1,22 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
+  <category name="Testes" colour="#5b93a5">
+    <block type="condicional"></block>
+  </category>
+  <category name="Repetições" colour="#5ba55b">
+    <block type="la_o"></block>
+  </category>
+  <category name="Operações" colour="#a55b6d">
+    <block type="avance">
+      <field name="distancia">1</field>
+    </block>
+    <block type="vire">
+      <field name="angulo">45</field>
+      <field name="direcao">direita</field>
+    </block>
+  </category>
+  <category name="Mensagens" colour="#a5a55b">
+    <block type="print">
+      <field name="palavra">Digite algo aqui</field>
+    </block>
+  </category>
+</xml>
